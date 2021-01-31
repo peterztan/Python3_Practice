@@ -1,4 +1,4 @@
-from LinearDS import Node
+from LinearDS.Node import Node
 
 class LinkedList:
     def __init__(self, value):
