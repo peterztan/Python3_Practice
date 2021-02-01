@@ -1,5 +1,5 @@
 class Node:
-    def __init__(self, value, previous_node = None, next_node = None):
+    def __init__(self, value, previous_node=None, next_node=None):
         self.value = value
         self.previous_node = previous_node
         self.next_node = next_node

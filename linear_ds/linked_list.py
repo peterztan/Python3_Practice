@@ -1,9 +1,10 @@
-from LinearDS.node import Node
+from linear_ds.node import Node
+
 
 class LinkedList:
     def __init__(self, value):
         self.head_node = Node(value)
-    
+
     def get_head_node(self):
         return self.head_node
 
