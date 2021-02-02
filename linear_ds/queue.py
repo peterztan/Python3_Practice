@@ -44,7 +44,10 @@ class Queue:
             return "The queue is empty!"
 
     def has_space(self):
-        return self.max_size > self.size
+        if self.max_size:
+            return self.max_size > self.size
+        else:
+            return True
 
     def is_empty(self):
         return self.size == 0
