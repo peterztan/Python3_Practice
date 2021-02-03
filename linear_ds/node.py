@@ -8,7 +8,7 @@ class Node:
         return self.value
 
     def get_next_node(self):
-        return self.link_node
+        return self.next_node
 
     def set_value(self, new_value):
         self.value = new_value
